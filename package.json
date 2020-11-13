@@ -1,0 +1,22 @@
+{
+  "name": "WildRiftCustomApi",
+  "version": "1.0.0",
+  "description": "A WildRift Api Project",
+  "main": "app.js",
+  "repository": "https://github.com/keno80/WildRiftCustomApi.git",
+  "author": "keno80 <ckkeno@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "start": "egg-scripts start --port=7001 --daemon --title=egg-server-wildrift",
+    "stop": "egg-scripts stop"
+  },
+  "dependencies": {
+    "egg": "^2.29.1",
+    "egg-scripts": "^2.13.0",
+    "js-pinyin": "^0.1.9"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.15.0"
+  }
+}
