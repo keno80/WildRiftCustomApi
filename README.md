@@ -1,2 +1,2 @@
 # 英雄联盟手游 - WildRift Api
-A Personal WildRift API Project
+英雄联盟手游 - WildRift Node.js Api Service
