@@ -1,269 +1,285 @@
 {
-  "keys": "E:\\Personal\\WildRift\\WildRiftCustomApi\\config\\config.default.js",
+  "keys": "/Users/keno/WildRift/WildRiftCustomApi/config/config.default.js",
+  "mysql": {
+    "client": {
+      "host": "/Users/keno/WildRift/WildRiftCustomApi/config/config.default.js",
+      "port": "/Users/keno/WildRift/WildRiftCustomApi/config/config.default.js",
+      "user": "/Users/keno/WildRift/WildRiftCustomApi/config/config.default.js",
+      "password": "/Users/keno/WildRift/WildRiftCustomApi/config/config.default.js",
+      "database": "/Users/keno/WildRift/WildRiftCustomApi/config/config.default.js"
+    },
+    "app": "/Users/keno/WildRift/WildRiftCustomApi/config/config.default.js",
+    "agent": "/Users/keno/WildRift/WildRiftCustomApi/config/config.default.js",
+    "default": {
+      "database": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
   "session": {
-    "maxAge": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-session/config/config.default.js"
   },
   "security": {
-    "domainWhiteList": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
     "csrf": {
-      "enable": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "type": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "refererWhiteList": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js"
     },
     "xframe": {
-      "enable": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js"
     }
   },
   "helper": {
-    "shtml": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-onerror\\config\\config.default.js",
-    "templatePath": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieDomain": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-watcher/config/config.local.js",
     "eventSources": {
-      "default": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-watcher/config/config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-schedule/config/config.default.js"
     }
   },
   "schedule": {
-    "directory": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-schedule\\config\\config.default.js"
+    "directory": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-schedule/config/config.default.js"
   },
   "multipart": {
-    "mode": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-multipart\\config\\config.default.js",
-    "autoFields": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-multipart\\config\\config.default.js",
-    "tmpdir": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-multipart\\config\\config.default.js",
+    "mode": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-multipart/config/config.default.js",
     "cleanSchedule": {
-      "cron": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-multipart\\config\\config.default.js"
+      "cron": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-multipart/config/config.default.js"
     }
   },
   "development": {
-    "watchDirs": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideIgnore": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-development/config/config.default.js",
+    "overrideIgnore": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-development/config/config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-static/config/config.default.js"
   },
   "view": {
-    "root": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-view/config/config.default.js"
   },
-  "env": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-  "name": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-  "cookies": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-  "maxIpsCount": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-  "maxProxyCount": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
+  "env": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+  "name": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
   "pkg": {
-    "name": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "version": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "description": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "main": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "repository": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "author": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "license": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
+    "name": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "version": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "description": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "main": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "repository": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "author": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "license": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
     "scripts": {
-      "dev": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-      "start": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-      "stop": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+      "dev": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "start": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "stop": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
     },
     "dependencies": {
-      "egg": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-      "egg-scripts": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-      "js-pinyin": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+      "egg": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "js-pinyin": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+      "egg-bin": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
     }
   },
-  "baseDir": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
   "dump": {
-    "ignore": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "textLimit": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "strict": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
+    "enable": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "strict": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-      "depth": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "depth": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
     },
-    "onerror": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+    "onerror": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
   },
   "logger": {
-    "dir": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "env": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "level": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
+    "dir": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "env": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "level": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
     "coreLogger": {
-      "consoleLevel": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.local.js"
     },
-    "allowDebugAtProd": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
     "request": {
-      "timeout": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "logging": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+    "enable": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "logging": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
   },
-  "coreMiddleware": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-  "serverTimeout": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-      "port": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+      "path": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "port": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
   },
-  "onClientError": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/config.default.js"
 }

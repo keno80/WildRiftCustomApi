@@ -4,5 +4,6 @@ module.exports = app => {
   router.get('/champion', controller.champions.champion)
   router.get('/news', controller.news.list)
   router.get('/news/content', controller.news.content)
+  router.get('/item', controller.items.item)
 }
 

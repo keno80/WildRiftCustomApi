@@ -88,25 +88,26 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-session\\config\\locales",
-        "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security\\config\\locales",
-        "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-jsonp\\config\\locales",
-        "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-onerror\\config\\locales",
-        "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-i18n\\config\\locales",
-        "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-watcher\\config\\locales",
-        "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-schedule\\config\\locales",
-        "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-multipart\\config\\locales",
-        "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-development\\config\\locales",
-        "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-logrotator\\config\\locales",
-        "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-static\\config\\locales",
-        "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-view\\config\\locales",
-        "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\locales",
-        "E:\\Personal\\WildRift\\WildRiftCustomApi\\config\\locales"
+        "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-session/config/locales",
+        "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security/config/locales",
+        "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-jsonp/config/locales",
+        "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-onerror/config/locales",
+        "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-i18n/config/locales",
+        "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-watcher/config/locales",
+        "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-schedule/config/locales",
+        "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-multipart/config/locales",
+        "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-development/config/locales",
+        "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-logrotator/config/locales",
+        "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-static/config/locales",
+        "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-view/config/locales",
+        "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-mysql/config/locales",
+        "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/locales",
+        "/Users/keno/WildRift/WildRiftCustomApi/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -117,8 +118,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -141,7 +142,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\admin\\AppData\\Local\\Temp\\egg-multipart-tmp\\WildRiftCustomApi",
+      "tmpdir": "/var/folders/28/kn2hcjzd1jdg9rm7b880_gnw0000gn/T/egg-multipart-tmp/WildRiftCustomApi",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -165,18 +166,33 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "E:\\Personal\\WildRift\\WildRiftCustomApi\\app\\public",
+      "dir": "/Users/keno/WildRift/WildRiftCustomApi/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "E:\\Personal\\WildRift\\WildRiftCustomApi\\app\\view",
+      "root": "/Users/keno/WildRift/WildRiftCustomApi/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
+    },
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "110.43.44.58",
+        "port": "3306",
+        "user": "root",
+        "password": "<String len: 8>",
+        "database": "wildrift"
+      }
     },
     "env": "local",
     "name": "WildRiftCustomApi",
@@ -203,6 +219,7 @@
       },
       "dependencies": {
         "egg": "^2.29.1",
+        "egg-mysql": "^3.0.0",
         "egg-scripts": "^2.13.0",
         "js-pinyin": "^0.1.9"
       },
@@ -210,9 +227,9 @@
         "egg-bin": "^4.15.0"
       }
     },
-    "baseDir": "E:\\Personal\\WildRift\\WildRiftCustomApi",
-    "HOME": "C:\\Users\\admin",
-    "rundir": "E:\\Personal\\WildRift\\WildRiftCustomApi\\run",
+    "baseDir": "/Users/keno/WildRift/WildRiftCustomApi",
+    "HOME": "/Users/keno",
+    "rundir": "/Users/keno/WildRift/WildRiftCustomApi/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -244,7 +261,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "E:\\Personal\\WildRift\\WildRiftCustomApi\\logs\\WildRiftCustomApi",
+      "dir": "/Users/keno/WildRift/WildRiftCustomApi/logs/WildRiftCustomApi",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -338,8 +355,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-onerror",
+      "from": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "session": {
@@ -349,8 +366,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-session",
+      "from": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-session",
       "version": "3.2.0"
     },
     "i18n": {
@@ -360,8 +377,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-i18n",
+      "from": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -371,8 +388,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-watcher",
+      "from": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-watcher",
       "version": "3.1.1"
     },
     "multipart": {
@@ -384,8 +401,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-multipart",
+      "from": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-multipart",
       "version": "2.10.3"
     },
     "security": {
@@ -397,8 +414,8 @@
         "session"
       ],
       "env": [],
-      "from": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-security",
+      "from": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-security",
       "version": "2.8.0"
     },
     "development": {
@@ -412,8 +429,8 @@
       "env": [
         "local"
       ],
-      "from": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-development",
+      "from": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -425,8 +442,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-logrotator",
+      "from": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -436,8 +453,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-schedule",
+      "from": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-schedule",
       "version": "3.6.6"
     },
     "static": {
@@ -447,8 +464,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-static",
+      "from": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-static",
       "version": "2.2.0"
     },
     "jsonp": {
@@ -460,8 +477,8 @@
         "security"
       ],
       "env": [],
-      "from": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-jsonp",
+      "from": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -471,9 +488,20 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\Personal\\WildRift\\WildRiftCustomApi\\node_modules\\egg-view",
+      "from": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg/config/plugin.js",
+      "path": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-view",
       "version": "2.1.3"
+    },
+    "mysql": {
+      "enable": true,
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/keno/WildRift/WildRiftCustomApi/config/plugin.js",
+      "path": "/Users/keno/WildRift/WildRiftCustomApi/node_modules/egg-mysql",
+      "version": "3.0.0"
     }
   }
 }
