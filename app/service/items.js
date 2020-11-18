@@ -14,7 +14,11 @@ class itemService extends Service {
 	async findOneItem() {
 		const id = this.ctx.request.query.id
 
-		return await this.app.mysql.get('items', {id})
+		const item = await this.app.mysql.get('items', {id})
+		item.type = JSON.parse(item.type)
+
+		return item
+
 	}
 }
 
