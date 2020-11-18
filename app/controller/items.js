@@ -1,13 +1,13 @@
 const Controller = require('egg').Controller
 
 class itemController extends Controller {
-  async item() {
-    const info = await this.ctx.service.items.find(1)
+  async allItems() {
+    const info = await this.ctx.service.items.getAllItems()
 
     this.ctx.body = {
       code: 200,
       item: info,
-      message: 'test'
+      message: '获取装备列表成功'
     }
   }
 }
