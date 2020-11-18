@@ -5,5 +5,6 @@ module.exports = app => {
   router.get('/news', controller.news.list)
   router.get('/news/content', controller.news.content)
   router.get('/item', controller.items.allItems)
+  router.get('/item/info', controller.items.oneItem)
 }
 
