@@ -16,6 +16,9 @@ class itemService extends Service {
 
 		const item = await this.app.mysql.get('items', {id})
 		item.type = JSON.parse(item.type)
+		if (item.passive !== null) {
+			item.passive = item.passive.split('。')
+		}
 
 		return item
 	}
