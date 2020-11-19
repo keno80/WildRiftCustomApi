@@ -18,7 +18,22 @@ class itemService extends Service {
 		item.type = JSON.parse(item.type)
 
 		return item
+	}
 
+	async doTypeFilter() {
+		const type = this.ctx.request.query.type
+		let queryInfo = []
+		if (type === "全部装备") {
+			queryInfo = await this.app.mysql.select('items')
+		} else{
+			queryInfo = await this.app.mysql.query(`SELECT * FROM items WHERE type like '%${type}%'`)
+		}
+
+		for (let i = 0; i < queryInfo.length; i++) {
+			queryInfo[i].type = JSON.parse(queryInfo[i].type)
+		}
+
+		return queryInfo
 	}
 }
 
