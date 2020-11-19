@@ -31,6 +31,16 @@ class itemController extends Controller {
 		}
 	}
 
+	async nameFilter() {
+		const filterList = await this.ctx.service.items.doNameFilter()
+
+		this.ctx.body = {
+			code: 200,
+			data: filterList,
+			message: '获取装备信息成功'
+		}
+	}
+
 }
 
 module.exports = itemController

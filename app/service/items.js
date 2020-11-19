@@ -35,6 +35,17 @@ class itemService extends Service {
 
 		return queryInfo
 	}
+
+	async doNameFilter() {
+		const name = this.ctx.request.query.name
+		const queryInfo = await this.app.mysql.query(`SELECT * FROM items WHERE name like '%${name}%'`)
+
+		for (let i = 0; i < queryInfo.length; i++) {
+			queryInfo[i].type = JSON.parse(queryInfo[i].type)
+		}
+
+		return queryInfo
+	}
 }
 
 
