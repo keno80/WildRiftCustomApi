@@ -20,6 +20,14 @@ class itemService extends Service {
 			item.passive = item.passive.split('。')
 		}
 
+		if (item.recipe !== null) {
+			item.recipe = JSON.parse(item.recipe)
+		}
+
+		if (item.builds !== null) {
+			item.builds = JSON.parse(item.builds)
+		}
+
 		return item
 	}
 
