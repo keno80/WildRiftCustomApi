@@ -6,7 +6,7 @@ class ChampionsController extends Controller {
     this.ctx.body = {
       code: 200,
       champions: data,
-      message: 'test'
+      message: '数据请求成功'
     }
   }
 
@@ -14,7 +14,7 @@ class ChampionsController extends Controller {
     const data = await this.ctx.service.champions.getChampionData()
     this.ctx.body = {
       code: 200,
-      data,
+      champion: data,
       message: '数据请求成功'
     }
   }

@@ -14,8 +14,7 @@
   "dependencies": {
     "egg": "^2.29.1",
     "egg-mysql": "^3.0.0",
-    "egg-scripts": "^2.13.0",
-    "js-pinyin": "^0.1.9"
+    "egg-scripts": "^2.13.0"
   },
   "devDependencies": {
     "egg-bin": "^4.15.0"
