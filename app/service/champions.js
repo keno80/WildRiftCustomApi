@@ -1,8 +1,5 @@
 const Service = require('egg').Service
-const ClientUrl = 'http://ddragon.leagueoflegends.com/cdn/10.23.1/data/zh_CN/champion'
-const ClientChampionImgUrl = 'http://ddragon.leagueoflegends.com/cdn/10.23.1/img/champion'
-const ClientChampionSpellImgUrl = 'http://ddragon.leagueoflegends.com/cdn/10.23.1/img/spell'
-const ClientChampionPassiveImgUrl = 'http://ddragon.leagueoflegends.com/cdn/10.23.1/img/passive'
+const mobileUrl = 'https://wildrift.leagueoflegends.com/page-data/zh-tw/champions/ahri/page-data.json'
 
 class ChampionsService extends Service {
   async getAllChampions() {
@@ -15,7 +12,6 @@ class ChampionsService extends Service {
     result.skinUrl = JSON.parse(result.skinUrl)
     result.spells = JSON.parse(result.spells)
     result.tags = result.tags.split(',')
-    result.passive = JSON.parse(result.passive)
 
     return result
   }
