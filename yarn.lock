@@ -119,6 +119,13 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
+"@koa/cors@^3.0.0":
+  version "3.1.0"
+  resolved "https://registry.npm.taobao.org/@koa/cors/download/@koa/cors-3.1.0.tgz#618bb073438cfdbd3ebd0e648a76e33b84f3a3b2"
+  integrity sha1-YYuwc0OM/b0+vQ5kinbjO4Tzo7I=
+  dependencies:
+    vary "^1.1.2"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npm.taobao.org/@mrmlnc/readdir-enhanced/download/@mrmlnc/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -2235,6 +2242,13 @@ egg-core@^4.18.0:
     node-homedir "^1.1.1"
     ready-callback "^2.1.0"
     utility "^1.16.1"
+
+egg-cors@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.npm.taobao.org/egg-cors/download/egg-cors-2.2.3.tgz#a21a0f6b2dc627a4e778a7282c1adf99aa63f88f"
+  integrity sha1-ohoPay3GJ6TneKcoLBrfmapj+I8=
+  dependencies:
+    "@koa/cors" "^3.0.0"
 
 egg-development@^2.4.2:
   version "2.7.0"

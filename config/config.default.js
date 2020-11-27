@@ -11,3 +11,15 @@ exports.mysql = {
   app: true,
   agent: false
 }
+
+exports.security = {
+  csrf: {
+    enable: false
+  },
+  domainWhiteList: ['*']
+}
+
+exports.cors = {
+  origin: '*',
+  allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
+}

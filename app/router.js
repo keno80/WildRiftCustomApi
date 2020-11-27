@@ -8,5 +8,11 @@ module.exports = app => {
   router.get('/item/info', controller.items.oneItem)
   router.get('/item/filter', controller.items.typeFilter)
   router.get('/item/name', controller.items.nameFilter)
+
+  //后台接口
+  router.post('/admin/items/:page/:size', controller.itemsAdmin.adminItems)
+  router.post('/admin/item', controller.itemsAdmin.adminOneItem)
+  router.post('/admin/item/add', controller.itemsAdmin.addItem)
+  router.post('/admin/item/edit', controller.itemsAdmin.editItem)
 }
 

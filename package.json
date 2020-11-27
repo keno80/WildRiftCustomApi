@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "egg": "^2.29.1",
+    "egg-cors": "^2.2.3",
     "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.13.0"
   },
