@@ -23,5 +23,8 @@ module.exports = app => {
   //天赋接口
   router.get('/runes/main', controller.runes.mainKeystone)
   router.get('/runes/deputy', controller.runes.deputyKeystone)
+
+  //召唤师技能接口
+  router.get('/summoner/spells', controller.summonerSpells.summonerSpells)
 }
 
