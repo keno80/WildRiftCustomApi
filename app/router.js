@@ -10,9 +10,15 @@ module.exports = app => {
   router.get('/item/name', controller.items.nameFilter)
 
   //后台接口
+  //装备接口
   router.post('/admin/items/:page/:size', controller.itemsAdmin.adminItems)
   router.post('/admin/item', controller.itemsAdmin.adminOneItem)
   router.post('/admin/item/add', controller.itemsAdmin.addItem)
   router.post('/admin/item/edit', controller.itemsAdmin.editItem)
+
+  //英雄接口
+  router.post('/admin/champions/:page/:size', controller.championsAdmin.adminChampions)
+  router.post('/admin/champion', controller.championsAdmin.adminOneChampion)
+  router.post('/admin/champion/edit', controller.championsAdmin.editChampion)
 }
 
