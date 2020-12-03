@@ -9,16 +9,19 @@ module.exports = app => {
   router.get('/item/filter', controller.items.typeFilter)
   router.get('/item/name', controller.items.nameFilter)
 
-  //后台接口
-  //装备接口
+  //后台装备接口
   router.post('/admin/items/:page/:size', controller.itemsAdmin.adminItems)
   router.post('/admin/item', controller.itemsAdmin.adminOneItem)
   router.post('/admin/item/add', controller.itemsAdmin.addItem)
   router.post('/admin/item/edit', controller.itemsAdmin.editItem)
 
-  //英雄接口
+  //后台英雄接口
   router.post('/admin/champions/:page/:size', controller.championsAdmin.adminChampions)
   router.post('/admin/champion', controller.championsAdmin.adminOneChampion)
   router.post('/admin/champion/edit', controller.championsAdmin.editChampion)
+
+  //天赋接口
+  router.get('/runes/main', controller.runes.mainKeystone)
+  router.get('/runes/deputy', controller.runes.deputyKeystone)
 }
 
