@@ -12,6 +12,18 @@ exports.mysql = {
   agent: false
 }
 
+// exports.mysql = {
+//   client: {
+//     host: 'localhost',
+//     port: '3306',
+//     user: 'root',
+//     password: 'Kai123..',
+//     database: 'wildrift'
+//   },
+//   app: true,
+//   agent: false
+// }
+
 exports.security = {
   csrf: {
     enable: false

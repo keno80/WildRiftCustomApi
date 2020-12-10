@@ -10,7 +10,11 @@ class ChampionsService extends Service {
     const requestId = this.ctx.request.query.id
     let result = await this.app.mysql.get('champions', {id: requestId})
     result.skinUrl = JSON.parse(result.skinUrl)
-    result.spells = JSON.parse(result.spells)
+    result.passive = JSON.parse(result.passive)
+    result.spells_1 = JSON.parse(result.spells_1)
+    result.spells_2 = JSON.parse(result.spells_2)
+    result.spells_3 = JSON.parse(result.spells_3)
+    result.spells_4 = JSON.parse(result.spells_4)
     result.tags = result.tags.split(',')
 
     return result
