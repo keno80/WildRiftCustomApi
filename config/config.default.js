@@ -12,6 +12,18 @@ exports.keys = 'WildRift'
 //   agent: false
 // }
 
+// exports.mysql = {
+//   client: {
+//     host: '42.193.125.93',
+//     port: '3306',
+//     user: 'root',
+//     password: 'Kai123..',
+//     database: 'wildrift'
+//   },
+//   app: true,
+//   agent: false
+// }
+
 exports.mysql = {
   client: {
     host: 'localhost',
